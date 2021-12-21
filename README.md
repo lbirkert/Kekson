@@ -1,5 +1,5 @@
 # Kekson
-What happens if you order Gson on wish?<br>
+Have you ever asked yourself what happens if you order Gson on wish?<br>
 <br>
 Well me neither, but here you go!<br>
 <br>
