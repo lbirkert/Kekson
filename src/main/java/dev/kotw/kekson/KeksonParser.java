@@ -1,3 +1,5 @@
+package dev.kotw.kekson;
+
 import java.util.Set;
 import java.util.Stack;
 

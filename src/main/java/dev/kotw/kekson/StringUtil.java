@@ -1,3 +1,5 @@
+package dev.kotw.kekson;
+
 public class StringUtil {
 	public static String toString(String str, char strChar) {
 		StringBuilder builder = new StringBuilder();

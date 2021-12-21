@@ -1,3 +1,5 @@
+package dev.kotw.kekson;
+
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.List;

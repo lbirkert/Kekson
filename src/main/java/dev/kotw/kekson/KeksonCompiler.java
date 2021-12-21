@@ -1,3 +1,5 @@
+package dev.kotw.kekson;
+
 import java.lang.reflect.Field;
 import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;
@@ -22,17 +24,17 @@ public class KeksonCompiler {
 	
 	public static Object deconstruct(Object o) {
 		Class<?> t = o.getClass();
-		if(t == int.class || t == Integer.class) {
+		if(t == Integer.class) {
 			o = (double)(int) o;
-		} else if(t == float.class || t == Float.class) {
+		} else if(t == Float.class) {
 			o = (double)(float) o;
-		} else if(t == long.class || t == Long.class) {
+		} else if(t == Long.class) {
 			o = (double)(long) o;
-		} else if(t == short.class || t == Short.class) {
+		} else if(t == Short.class) {
 			o = (double)(short) o;
-		} else if(t == byte.class || t == Byte.class) {
+		} else if(t == Byte.class) {
 			o = (double)(byte) o;
-		} else if(t == double.class || t == Double.class) {
+		} else if(t == Double.class) {
 			o = (double) o;
 		} else if(t == String.class) {
 			o = (String) o;
